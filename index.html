@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Shop</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <header>
-        <h1><a href="index.html">PIZZA SHOP</a></h1> <!-- Only one h1 per page-->
-        <nav>
-            <ul>
-                <li><a href="#presentation">Home</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#reservation">Reservations</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <h1><a href="index.html">PIZZA SHOP</a></h1> <!-- Only one h1 per page-->
+            <nav>
+                <ul>
+                    <li><a href="#presentation">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservation">Reservations</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <Section class="presentation" id="presentation">
         <div class="presentation-video">
             <video src="/resources/video/pizza.mp4" autoplay muted loop></video> <!-- autoplay = automatic video playback / muted = silent video should be used to run chome / loop = loop -->
         </div>
         <h2>See homemade Italian pizza</h2>
-        <p>
+        <p class="class_p">
             Traditional Neapolitan pizza made by Pizzaiolos dedicated to respecting traditions and flavors.
         </p>
     </Section>
@@ -43,6 +46,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatem, ipsa eligendi, amet doloremque dicta ducimus obcaecati, sunt culpa sapiente repellendus nesciunt assumenda maxime? Quod ducimus earum a impedit sequi, consectetur quibusdam hic aliquid laboriosam porro at expedita nihil voluptatibus qui esse enim vero? Voluptatibus unde laborum minima obcaecati maxime?</p>
         </div>
     </section>
+    <!--menu-->
     <section class="menu" id="menu">
         <h2>Menu</h2>
         <ul>
@@ -72,6 +76,7 @@
             </li>
         </ul>
     </section>
+    <!--Booking form-->
     <section class="reservation" id="reservation">
         <h2>Booking form</h2>
         <form action="#">
